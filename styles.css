@@ -5,7 +5,7 @@
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 300;
     color: #4a4a4a;
 }
@@ -52,14 +52,33 @@ ul {
 
 li:first-child {
     margin: 0;
+    border-left: none;
+    padding: 0;
 }
 
 li {
     display: inline-block;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 300;
     color: #4a4a4a;
-    margin: 0 50px;
+    margin: 0 15px ;
+    text-decoration: none;
+    border-left: 1px solid #4a4a4a;
+    padding-left: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+a:visited {
+    color: #4a4a4a;
 }
 
 .slider-container {
@@ -78,8 +97,8 @@ li {
     margin: 2.5% 0;
     -webkit-appearance: none; 
     appearance: none;
-    height: 15px;
-    background: linear-gradient(to left bottom, #ee7207, #dc091a, #B31E49, #972369, #13277F);
+    height: 10px;
+    background: linear-gradient(to right bottom, #ee7207, #dc091a, #B31E49, #972369, #13277F);
     outline: none; 
     opacity: 0.7; 
 }
@@ -89,7 +108,7 @@ li {
     appearance: none;
     width: 25px; 
     height: 25px; 
-    /* background: linear-gradient(to right bottom, #ee7207, #dc091a, #B31E49, #972369, #2A3C8B); */
+   
     background: #13277F;
     border-radius: 20px;
     cursor: pointer; 
@@ -101,6 +120,27 @@ li {
     width: 150px;
   }
 
+  .programme-slot {
+      color: #4a4a4a;
+      font-weight: 300;
+      display: block;
+  }
+  a.programme-slot-link {
+      color: #13277F;
+      margin: 20% auto;
+      border: 1px #13277F dashed;
+      /* background:  #ee7207; */
+      border-radius: 6px;
+      padding: 10px;
+      width: 60%;
+      opacity: 0.5;
+      transition: 0.3s;
+  }
+
+  a.programme-slot-link:hover {
+    opacity: 1;
+  }
+
   .programme-slots {
       display: grid;
       margin: 2%;
@@ -108,20 +148,24 @@ li {
       grid-gap: 2%;
   }
 
-
-  .programme-slot-title {
-      background: #F9F9FB;
-      border: 1px solid #4a4a4a;
-      text-align: center;
-      margin-bottom: 2%;
-      border-radius: 3%;
-  }
   .programme-slot-img {
     background: #F9F9FB;
     height: 200px;
     margin: 2% 0;
-    border: 1px solid #4a4a4a;
-    text-align: center;
-    border-radius: 3%;
+    border: 1px solid rgb(235, 235, 235);
     
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 2%;
+    text-align: center;
   }
+
+  .programme-slot-title {
+    background: #F9F9FB;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 2%;
+    height: 20px;
+
+}
