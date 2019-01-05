@@ -68,6 +68,10 @@ li {
     justify-content: center;
 } 
 
+.slider-container:last-child {
+ margin-bottom: 2.5em;
+}
+
 
 .slider {
     width: 100%;
@@ -94,9 +98,30 @@ li {
   .slider-label {
     margin: 0 5%;
     padding: 0 2%;
-    width: 50px;
+    width: 150px;
   }
 
   .programme-slots {
       display: grid;
+      margin: 2%;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 2%;
+  }
+
+
+  .programme-slot-title {
+      background: #F9F9FB;
+      border: 1px solid #4a4a4a;
+      text-align: center;
+      margin-bottom: 2%;
+      border-radius: 3%;
+  }
+  .programme-slot-img {
+    background: #F9F9FB;
+    height: 200px;
+    margin: 2% 0;
+    border: 1px solid #4a4a4a;
+    text-align: center;
+    border-radius: 3%;
+    
   }
