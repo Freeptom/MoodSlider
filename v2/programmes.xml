@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <programme>
+        <title>Programme Data</title>
+        <programme id="1">
+            <programme>
+            <name>A nightmare on Elm Street</name>
+            <!-- <image path>../images/Elm Street.jpg</image path> -->
+            <mood>Scared</mood>
+            </programme>
+        </programme>
+        <programme id="2">
+            <programme>
+            <name>School of Rock</name>
+            <!-- <image path>../images/School.jpg</image path> -->
+            <mood>Happy</mood>
+            </programme>
+        </programme>
+        <programme id="3">
+            <programme>
+            <name>First Blood</name>
+            <!-- <image path>../images/First.jpg</image path> -->
+            <mood>Wide Awake</mood>
+            </programme>
+        </programme>
+</programme>
